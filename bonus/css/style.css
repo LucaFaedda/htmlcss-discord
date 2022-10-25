@@ -134,9 +134,22 @@ h2{
     margin-top: 40px;
 }
 
+.wave{
+    display: flex;
+}
+
+.onda-grey{
+    -webkit-filter: invert(83%);
+}
+
+.onda-grey-rotate{
+    -webkit-filter: invert(83%);
+    transform: rotate(180deg);
+
+}
+
 .bk-grey{
     background-color: #D3D3D3;
-    margin-top: 40px;
 }
 
 .bk-black{
