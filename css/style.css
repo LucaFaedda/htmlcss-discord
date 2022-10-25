@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+}
+
 .padding-20px{
     padding: 20px 0px;
 }
@@ -37,11 +45,11 @@ header{
     color: white;
 }
 
-.logo{
+.col-logo{
     width: 25%;
 }
 
-.list-item{
+.col-list-item{
     width: 50%;
 }
 
@@ -49,6 +57,7 @@ header{
     list-style: none;
     display: flex;
     justify-content: space-around;
+
 }
 
 .login{
@@ -76,6 +85,11 @@ header{
 
 h1{
     padding-bottom: 20px;
+    font-family: 'Akshar', sans-serif;
+}
+
+h2{
+    font-family: 'Akshar', sans-serif;
 }
 
 .buttom{
@@ -165,9 +179,24 @@ h1{
 
 /* inizio footer */
 
+footer{
+    color: #ffff;
+}
+
 .row.link.container{
     width: 100%;
 }
+
+.color-blu{
+    color: #4E5C8A;
+    font-size: 35px;
+}
+
+.bandiera-ita{
+    width: 25px;
+    height: 15px;
+}
+
 
 .col.select{
     flex-grow: 2;
@@ -183,9 +212,12 @@ select{
     list-style: none;
 }
 
+.list-blue{
+    color: #4E5C8A;
+}
+
 .unorder-list-footer li{
     padding-bottom: 10px;
-    color: #ffff;
 }
 
 .col.list-footer{
@@ -196,8 +228,6 @@ select{
     display: flex;
     align-items: flex-end;
     background-color: #23272A;
-
-
 }
 
 .row.last-bottom{
