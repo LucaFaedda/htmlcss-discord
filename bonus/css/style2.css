@@ -16,6 +16,10 @@ button{
     padding: 20px 0px;
 }
 
+.padding-50px{
+    padding: 50px 0px;
+}
+
 .padding-bottom-20px{
     padding-bottom: 70px;
 }
@@ -35,19 +39,10 @@ button{
     width: 100%;
 }
 
-a{
-    text-decoration: none;
-}
-
-a:visited{
-   color: #ffff;
-    
-}
-
 /* header */
 
 header{
-    background-color: #3161E0;
+    background-color: #23272A;
     height: 100px;
     display: flex ;
     align-items: center;
@@ -92,125 +87,43 @@ button:hover{
     border: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:visited{
+   color: #ffff;
+    
+}
+
+
 /* fine header */
 
 /* inizio main */
-
-.central-text{
-    background-image:url(../img/jumbo.png) ;
-    background-size: cover;
-    width: 100%;
-    padding: 130px;
-}
-
-h1{
-    padding-bottom: 20px;
-    font-family: 'Akshar', sans-serif;
-}
-
-h2{
-    font-family: 'Akshar', sans-serif;
-}
-
-.buttom{
-    display:flex ;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.downloaded-bk-white{
-    font-size: 20px;
-    margin-right: 30px;
-    border-radius: 20px;
-    border-style: none;
-    padding: 10px 20px;
-}
-
-.Open-browser{
-    font-size: 20px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border-style: none;
-    color: #ffff;
-    background-color: #23272A;
-
-}
-
-.col.intro{
-    width: 100%;
-    padding: 20px 0px;
-    text-align: center;
-    font-size: 30px;
-    color: #ffff;
-}
-
-.row.section{
-    height: 400px;
-    width: 100%;
-}
-
-.bk-white{
-    background-color: #ffff;
-    margin-top: 40px;
-}
-
-.wave{
-    display: flex;
-}
-
-.onda-grey{
-    -webkit-filter: invert(83%);
-}
-
-.onda-grey-rotate{
-    -webkit-filter: invert(83%);
-    transform: rotate(180deg);
-
-}
-
-.bk-grey{
-    background-color: #D3D3D3;
-}
 
 .bk-black{
     background-color: #23272A;
 }
 
-.col.image{
+
+.col-scarica-per-windows{
+    width: 30%;
+    background-color: red;
+}
+
+.col-image-pc{
     width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: red;
 }
 
-.col.text{
-    width: 25%;
-    font-size: 25px;
-    line-height: 1.5;
-}
-
-.col.big-image{
-    text-align: center;
-    font-size: 25px;
-}
-
-.line-height2{
-    line-height: 2;
-}
-
-.downloaded-bk-violet{
-    font-size: 20px;
-    border-radius: 20px;
-    border-style: none;
-    padding: 10px 20px;
-    background-color: #8EA1E1;
-    margin-top: 20px;
-    color: #ffff;
+.imgPC{
+    width: 800px
 }
 
 /* fine main */
 
 /* inizio footer */
+
 
 footer{
     color: #ffff;
