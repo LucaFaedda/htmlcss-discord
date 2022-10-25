@@ -183,12 +183,13 @@ footer{
     color: #ffff;
 }
 
-.row.link.container{
+.row.link{
     width: 100%;
+    margin-top: 40px;
 }
 
 .color-blu{
-    color: #4E5C8A;
+    color: #7289DA;
     font-size: 35px;
 }
 
@@ -197,12 +198,18 @@ footer{
     height: 15px;
 }
 
+.icone{
+    height: 30px;
+    width: 35px;
+    margin-top: 20px;
+}
 
 .col.select{
     flex-grow: 2;
 }
 
 select{
+    margin-top: 20px;
     border-style: none;
     background: transparent;
     color: #ffff;
@@ -213,7 +220,7 @@ select{
 }
 
 .list-blue{
-    color: #4E5C8A;
+    color: #7289DA;
 }
 
 .unorder-list-footer li{
@@ -233,7 +240,7 @@ select{
 .row.last-bottom{
     width: 100%;
     justify-content: space-between;
-    border-top: 1px solid #ffff;
+    border-top: 1px solid #7289DA;
 }
 
 #sign-up{
